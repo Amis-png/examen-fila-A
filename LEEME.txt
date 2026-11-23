@@ -1,0 +1,30 @@
+JUEGO 2D - GRUPO A
+==================
+
+COMO ABRIRLO
+1. Descomprime el zip en D:\  (debe quedar D:\examen-fila-A\Assets ...)
+2. Unity Hub > Proyectos > Anadir > "Anadir proyecto desde disco"
+3. Elige la carpeta D:\examen-fila-A y abrela con Unity 6000.6.3f1
+4. La primera vez tarda unos minutos. Se abre sola la escena "Juego".
+5. Pulsa Play.
+
+CONTROLES (pizarra Grupo A)
+  Flecha ARRIBA = izquierda
+  A             = derecha
+  V             = saltar
+  (se cambian al inicio de Assets/Scripts/Jugador.cs)
+
+QUE TIENE
+  - Caminar y saltar tipo Mario
+  - Bloques amarillos: suenan y dan +1 punto al golpearlos desde abajo
+  - Si te caes por un hueco: mensaje "Te caiste" (+1 caida) y vuelves al inicio
+  - Meta con bandera al final
+
+PERSONAJE PROPIO
+  Crea la carpeta Assets/Resources y pon tu imagen como jugador.png
+
+SUBIR A GITHUB
+  1. Crea el repositorio vacio "examen-fila-A" en GitHub (sin README ni .gitignore)
+  2. Cierra Unity y en Git Bash:
+       cd /d/examen-fila-A
+       bash subir_a_github.sh
